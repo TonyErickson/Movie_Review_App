@@ -5,9 +5,24 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: brown;
+  
+}
+.container-searchfield {
+  display: flex;
+  padding: 15px;
+  column-width: 25em;
+  background-color: brown;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.title {
+  text-align: center;
+}
+
+.input [form-control] {
+  width: 50%;
 }

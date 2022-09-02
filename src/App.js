@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+
+import React, { useState, useEffect } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import MovieList from './components/movie';
+import SearchBox from './components/moviesearch';
+import Home from './components/movielist';
+import StarRating from './components/stars';
+import Movie from './components/movie';
+import Main from './components/reviewlist';
 
 function App() {
   return (
+    <div>
+      
+      <h3>Movie Review</h3>
+    
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      <MovieList />
+    </div>
     </div>
   );
 }

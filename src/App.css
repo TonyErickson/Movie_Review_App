@@ -1,38 +1,75 @@
 .App {
   text-align: center;
+} 
+/* has to do with the stars rating */
+input[type='radio'] {
+  display: none;
+}
+.star {
+  cursor: pointer;
+  transition: color 200ms;
+}
+/* search bar */
+.container {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 40px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form {
+  display:grid;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.label {
+  font-size: 15px;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+/* images for the movies */
+img {
+  display: inline-flex;
+  margin-left: 10%;
+  margin-right: auto;
+  width: 20%;
+  height: 40%;
+}
+/* boxes for entering info  */
+.form-control {
+  text-align: center;
+  background-color: rgb(252, 252, 252);
+  color: rgb(1, 1, 1);
+  border: solid black;
+  font-size: large;
+  font: bolder;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+input[type='text'] {
+  padding: 2px;
+  margin: 2px;
+}
+
+.table {
+  text-align: center;
+}
+.image-container {
+  height: 100%;
+}
+
+.homepage {
+  background-color: brown;
+}
+
+.container {
+  background-color: brown;
+}
+.col {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.tablerating {
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+th {
+  text-align: center;
 }
